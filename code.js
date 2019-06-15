@@ -1,3 +1,5 @@
+"use strict";
+
 $('input').keyup(function(volume) { // run anytime the value changes
   var firstValue = Number($('#first').val()); // get value of field
   var secondValue = Number($('#second').val()); // convert it to a float
