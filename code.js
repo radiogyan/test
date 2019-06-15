@@ -6,7 +6,7 @@ $('input').keyup(function(volume) { // run anytime the value changes
   var result = Math.round(firstValue * secondValue * thirdValue * 0.5 * 10) / 10 //returns 28.5
 
   $('#total_expenses1').html(result)
-      document.getElementById('total_expenses2').value = result
+  document.getElementById('total_expenses2').value = result
 
 
   // add them and output it
