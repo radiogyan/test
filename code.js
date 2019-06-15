@@ -1,6 +1,6 @@
 "use strict";
 
-function(volume) { // run anytime the value changes
+function volume() {
   var firstValue = Number($('#first').val()); // get value of field
   var secondValue = Number($('#second').val()); // convert it to a float
   var thirdValue = Number($('#third').val());
