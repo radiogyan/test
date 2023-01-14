@@ -356,7 +356,7 @@ function computeTirads(fromDiv) {
 		} else if (noduleList[number].total >= 4
 				&& noduleList[number].total <= 6) {
 			cat = "TIRADS Category 4: Moderately Suspicious";
-			recommendation = "If >1.5cm: FNA; If >1cm: Follow up at 1,3,5 years";
+			recommendation = "If >1.5cm: FNA; If >1cm: Follow up at 1,2,3,5 years";
 			result3.style = "opacity:1.0";
 			resultRight.innerHTML  = 
 				"<div id='idresult0' style='width:100%;padding:0' class='col-md col-sm-12 mb-3'>" +
